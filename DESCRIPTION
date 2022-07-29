@@ -2,14 +2,23 @@ Package: tidycrosstabs
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.1
 Authors@R: 
-    person("Elin", "Waring", "elin.waring@gmail.com", role = c("aut", "cre"))
+    person(given="Elin", family="Waring", ,"elin.waring@gmail.com", role = c("aut", "cre"))
 Description: Creates flexible, pipeable crosstabs.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Suggests: 
+    covr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/elinw/tidycrosstabs
 BugReports: https://github.com/elinw/tidycrosstabs/issues
+Imports: 
+    cli,
+    glue,
+    lifecycle,
+    rlang,
+    withr,
+    dplyr,
+    tidyr
